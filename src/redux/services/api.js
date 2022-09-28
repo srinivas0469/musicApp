@@ -5,7 +5,7 @@ export const FetchWordChartApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
         prepareHeaders: (headers) => {
-            headers.set('X-RapidAPI-Key', 'f85029e6ffmsh0e4e6cf7f1636d6p1380f0jsncb410ba6b49c');
+            headers.set('X-RapidAPI-Key', '');
             headers.set('X-RapidAPI-Host','shazam-core.p.rapidapi.com');
             return headers;
         },
